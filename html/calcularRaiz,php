@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Raiz</title>
+	</head>
+	<body>
+		<div>
+			<?php
+				$valor=$_GET["valor"];
+				echo 'O valor enviado foi: ',$valor;
+			?>
+		</div>
+	</body>
+</html>
